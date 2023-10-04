@@ -1,0 +1,32 @@
+/* estilos generales*/
+*{
+    text-align: center;
+}
+
+
+/*media queries para pantallas pequeñas*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
